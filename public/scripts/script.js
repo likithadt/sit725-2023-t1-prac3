@@ -22,8 +22,8 @@ const submitForm = () => {
     formData.last_name = $('#last_name').val();
     formData.password = $('#password').val();
     formData.email = $('#email').val();
-    console.log("Form Data Submitted: ", formData);
-    alert("Form Data Submitted: ", formData );
+    console.log("Form Data Submitted:", formData);
+    alert("Form Data Submitted successfully");
 }
 const addCards = (items) => {
     items.forEach(item => {
